@@ -9,9 +9,9 @@ function Themesetter({ children }) {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Box data-aos="zoom-in" data-aos-duration="250">
+      {/* <Box data-aos="zoom-in" data-aos-duration="250"> */}
         {children}
-      </Box>
+      {/* </Box> */}
     </ThemeProvider>
   );
 }
